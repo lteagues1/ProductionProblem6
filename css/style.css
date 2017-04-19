@@ -27,12 +27,12 @@ nav
          display: block;
          display: block;
          padding: 10px 20px;
-	       background-color: #6699ff;
-	       color: #fff;
+	 background-color: blue;
+	 text-decoration: none;    
          
 }
 a
 {
-	color: #6699ff;
-	text-decoration: none;
+	color: #000;
+	text-decoration: underline overline;
 }
