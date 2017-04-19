@@ -3,7 +3,7 @@
 
 
 
-ul
+ul.navbar
 {
 	 list-style-type: none;
 	 margin: 0;
@@ -14,14 +14,14 @@ ul
 	 position: relative;
 }
          
-li
+li.navbar
 {
 	left: 50%;
 	float: left;
         position: relative;
 }
 
-li a
+li a.navbar
 {
          display: block;
          float: left;
@@ -31,9 +31,33 @@ li a
 	 position: relative;
          
 }
-li a:hover
+li a:hover.navbar
 {
 	
 	color: #000;
 	text-decoration: underline overline;
+}
+ul.sidebar
+{
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 width: 20%;
+	 background-color: #ff0000;
+	 position: fixed
+	 height: 100%;	
+	overflow: auto;
+}
+li a.sidebar
+{
+         display: block;
+         padding: 15px 0;
+	 background-color: #000;
+	 text-decoration: none;  
+}
+li a:hover.sidebar
+{
+	
+	color: #fff;
+	
 }
