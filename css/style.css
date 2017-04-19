@@ -37,7 +37,7 @@ li a:hover.navbar
 	color: #000;
 	text-decoration: underline overline;
 }
-ul.sidebar
+#sidebar
 {
 	 list-style-type: none;
 	 margin: 0;
@@ -48,14 +48,14 @@ ul.sidebar
 	 height: 100%;	
 	overflow: auto;
 }
-li a.sidebar
+#sidebar
 {
          display: block;
          padding: 15px 0;
 	 background-color: #000;
 	 text-decoration: none;  
 }
-li a:hover.sidebar
+#sidebar
 {
 	
 	color: #fff;
