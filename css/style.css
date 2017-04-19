@@ -1,6 +1,8 @@
 /*start your css here*/
 #page
 
+
+
 ul
 {
 	 list-style-type: none;
@@ -31,7 +33,7 @@ li a
 }
 li a:hover
 {
-	display: block;
+	
 	color: #000;
 	text-decoration: underline overline;
 }
