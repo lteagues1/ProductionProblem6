@@ -1,1 +1,38 @@
 /*start your css here*/
+#page
+
+nav
+{
+         overflow: hidden;
+         width: 100%;
+         float: left;
+         position: relative;
+}
+.nav
+{
+         margin: 0;
+         padding: 0;
+         position: relative;
+}
+.nav li
+{
+         left: 50%;
+         float: left;
+         float: left;
+         list-style-type: none;
+         position: relative;
+}
+.nav a
+{
+         display: block;
+         display: block;
+         padding: 10px 20px;
+	       background-color: #6699ff;
+	       color: #fff;
+         
+}
+a
+{
+	color: #6699ff;
+	text-decoration: none;
+}
