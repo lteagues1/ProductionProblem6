@@ -1,38 +1,37 @@
 /*start your css here*/
 #page
 
-nav
+ul
 {
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
          overflow: hidden;
-         width: 100%;
-         float: left;
-         position: relative;
+	 background-color: #0000ff;
+	 position: relative;
 }
-.nav
+         
+li
 {
-         margin: 0;
-         padding: 0;
-         position: relative;
+	left: 50%;
+	float: left;
+        position: relative;
 }
-.nav li
-{
-         left: 50%;
-         float: left;
-         float: left;
-         list-style-type: none;
-         position: relative;
-}
-.nav a
+
+li a
 {
          display: block;
-         display: block;
+         float: left;
          padding: 10px 20px;
 	 background-color: #0000ff;
-	 text-decoration: none;    
+	 text-decoration: none;  
+	 position: relative;
          
 }
-a
+li a:hover
 {
-	color: #0000ff;
+	display: block;
+	color: #000;
 	text-decoration: underline overline;
 }
