@@ -40,16 +40,16 @@ li#onpage {
 }
 	
 div#sidebar {
+	 position: fixed;
+	 right:0%;
 	 background-color: #ff0000;
-	 position: fixed
-	 right: 0%;
 	 height: 100%;
 	 width: 20%;
 }
 div#sidebar-container ul {
          list-style-type: none;
 	 padding: 0;
-	text-align: center;
+	 text-align: center;
 }
 div#sidebar-container ul li {
 	display: block;
