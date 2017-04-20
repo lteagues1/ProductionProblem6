@@ -1,43 +1,44 @@
 /*start your css here*/
-#page
-
-
-
-ul.navbar
-{
-	 list-style-type: none;
-	 margin: 0;
-	 padding: 0;
+nav#main-navbar {
 	 width: 100%;
          overflow: hidden;
 	 background-color: #0000ff;
 	 position: relative;
 }
          
-li.navbar
-{
+div#navbar-container {
 	left: 50%;
 	float: left;
         position: relative;
 }
 
-li a.navbar
-{
-         display: block;
+div#navbar-container ul {
+         
          float: left;
-         padding: 10px 20px;
-	 background-color: #0000ff;
-	 text-decoration: none;  
+         margin: 0;
+	 padding: 0;
 	 position: relative;
+	list-style-type: none;
          
 }
-li a:hover.navbar
-{
-	
-	color: #000;
+div#navbar-container ul li {
+	display: block;
+	float: left;
+	padding: 10px 20px;
+}
+div#navbar-container ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+div#navbar-container ul li a:hover {
+	background-color: #000;
+}
+li#onpage {
 	text-decoration: underline overline;
 }
-#sidebar
+	
+	
 {
 	 list-style-type: none;
 	 margin: 0;
