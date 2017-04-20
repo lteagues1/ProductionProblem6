@@ -38,27 +38,25 @@ li#onpage {
 	text-decoration: underline overline;
 }
 	
-	
-{
-	 list-style-type: none;
-	 margin: 0;
-	 padding: 0;
-	 width: 20%;
+div#sidebar {
 	 background-color: #ff0000;
 	 position: fixed
-	 height: 100%;	
-	overflow: auto;
+	 height: 100%;
+	 width: 20%;
 }
-#sidebar
-{
-         display: block;
-         padding: 15px 0;
-	 background-color: #000;
-	 text-decoration: none;  
+div#sidebar-container ul {
+         list-style-type: none;
+	 padding: 0;
+	text-align: center;
 }
-#sidebar
-{
-	
+div#sidebar-container ul li {
+	display: block;
+	padding: 15px 0;
+}
+div#sidebar-container ul li a {
 	color: #fff;
-	
+	text-decoration: none;
+}
+div#sidebar-container ul li a:hover {
+	background-color: #000;
 }
